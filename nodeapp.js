@@ -3,7 +3,7 @@ var handleRequest = function (request, response)
 { 
    console.log('Received request for URL:'+ request.url);
    response.writeHead(200);
-   response.end('Hello AJ5');
+   response.end('Hello AJ6');
  };
  
  var www = http.createServer(handleRequest);
